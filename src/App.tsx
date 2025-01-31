@@ -1,8 +1,10 @@
+import Header from "./components/header"
+
 function App() {
   return (
-    <h1 className='text-6xl'>
-      Typing Test
-    </h1>
+    <section className='bg-zinc-900 min-h-screen'>
+      <Header />
+    </section>
   )
 }
 
